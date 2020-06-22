@@ -66,7 +66,7 @@ input[type='text'] {
 	padding: 10px;
 	box-sizing: border-box;
 	margin: 6px 0;
-	background: #3c1f3c;
+	background: #3c1f2c;
 	color: #fff;
 	border: 0;
 }
@@ -76,4 +76,7 @@ input[type='submit'] {
 	border: 0;
 	padding: 6px 20px;
 	display: block;
+}
+input[type='submit']:hover {
+	cursor: pointer;
 }
